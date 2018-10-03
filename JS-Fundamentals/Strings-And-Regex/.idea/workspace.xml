@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f826c391-fc03-41b1-9dda-6112555eeb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Censorship-08.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConcatenateReversed-02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CountOccurrences-03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExpressionSplit-11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtractText-04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatchAllWords-09.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatchTheDates-12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrintLetters-01.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestaurantBill-06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleEmailValidation-10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Usernames-07.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays-Matrices-And-Dimensional-Arrays-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays-Matrices-And-Dimensional-Arrays-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AggregateTable-05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormFiller-14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MatchMultiplication-15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParseTheEmployeeData-13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,48 +22,40 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="12" />
+          <entry key="js" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1854" />
+          <entry key="js" value="2829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1854" />
+          <entry key="JavaScript" value="2829" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatchAllWords-09.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SimpleEmailValidation-10.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -79,17 +63,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatchTheDates-12.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" column="29" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExpressionSplit-11.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ParseTheEmployeeData-13.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FormFiller-14.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatchMultiplication-15.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExpressionSplit-11.js">
+        <entry file="file://$PROJECT_DIR$/AggregateTable-05.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -129,6 +149,10 @@
         <option value="$PROJECT_DIR$/SimpleEmailValidation-10.js" />
         <option value="$PROJECT_DIR$/MatchTheDates-12.js" />
         <option value="$PROJECT_DIR$/ExpressionSplit-11.js" />
+        <option value="$PROJECT_DIR$/ParseTheEmployeeData-13.js" />
+        <option value="$PROJECT_DIR$/FormFiller-14.js" />
+        <option value="$PROJECT_DIR$/MatchMultiplication-15.js" />
+        <option value="$PROJECT_DIR$/AggregateTable-05.js" />
       </list>
     </option>
   </component>
@@ -138,7 +162,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-109" />
     <option name="y" value="29" />
     <option name="width" value="1692" />
@@ -150,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,36 +205,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ExpressionSplit-11.js">
-    <configuration name="Censorship-08.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Censorship-08.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.AggregateTable-05.js">
+    <configuration name="AggregateTable-05.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AggregateTable-05.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="ExpressionSplit-11.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ExpressionSplit-11.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="MatchAllWords-09.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MatchAllWords-09.js" working-dir="$PROJECT_DIR$">
+    <configuration name="FormFiller-14.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="FormFiller-14.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="MatchTheDates-12.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MatchTheDates-12.js" working-dir="$PROJECT_DIR$">
+    <configuration name="MatchMultiplication-15.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="MatchMultiplication-15.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="Usernames-07.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Usernames-07.js" working-dir="$PROJECT_DIR$">
+    <configuration name="ParseTheEmployeeData-13.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ParseTheEmployeeData-13.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.Usernames-07.js" />
-      <item itemvalue="Node.js.Censorship-08.js" />
-      <item itemvalue="Node.js.MatchAllWords-09.js" />
-      <item itemvalue="Node.js.MatchTheDates-12.js" />
       <item itemvalue="Node.js.ExpressionSplit-11.js" />
+      <item itemvalue="Node.js.ParseTheEmployeeData-13.js" />
+      <item itemvalue="Node.js.FormFiller-14.js" />
+      <item itemvalue="Node.js.MatchMultiplication-15.js" />
+      <item itemvalue="Node.js.AggregateTable-05.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.AggregateTable-05.js" />
+        <item itemvalue="Node.js.MatchMultiplication-15.js" />
+        <item itemvalue="Node.js.FormFiller-14.js" />
+        <item itemvalue="Node.js.ParseTheEmployeeData-13.js" />
         <item itemvalue="Node.js.ExpressionSplit-11.js" />
-        <item itemvalue="Node.js.MatchTheDates-12.js" />
-        <item itemvalue="Node.js.MatchAllWords-09.js" />
-        <item itemvalue="Node.js.Censorship-08.js" />
-        <item itemvalue="Node.js.Usernames-07.js" />
       </list>
     </recent_temporary>
   </component>
@@ -225,30 +249,31 @@
       <option name="presentableId" value="Default" />
       <updated>1538501560152</updated>
       <workItem from="1538501562781" duration="7839000" />
+      <workItem from="1538595102156" duration="3431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7839000" />
+    <option name="totallyTimeSpent" value="11270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49879372" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49939686" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012063" side_tool="true" visible="true" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -305,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MatchAllWords-09.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="85">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -317,6 +342,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ParseTheEmployeeData-13.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExpressionSplit-11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormFiller-14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatchTheDates-12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ExtractText-04.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -324,17 +377,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatchTheDates-12.js">
+    <entry file="file://$PROJECT_DIR$/MatchMultiplication-15.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExpressionSplit-11.js">
+    <entry file="file://$PROJECT_DIR$/AggregateTable-05.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
