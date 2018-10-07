@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f8aac3d-a781-4e3d-a639-0605df42aa37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CountWordsInText-05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CountWordsWithMaps-06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExtractUniqueWords-10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PopulationsInTowns-07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScoreToHTML-02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SumByTown-04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TownsToJSON-01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Strings-And-Regex-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings-And-Regex-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CityMarkets-08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JSONToHTMLTable-03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LowestPricesInCities-09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtractUniqueWords-10.js" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractUniqueWords-10.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,75 +22,50 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="7" />
+          <entry key="js" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1903" />
+          <entry key="js" value="3041" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1903" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="3040" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TownsToJSON-01.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScoreToHTML-02.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CountWordsInText-05.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PopulationsInTowns-07.js">
+        <entry file="file://$PROJECT_DIR$/CityMarkets-08.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExtractUniqueWords-10.js">
+        <entry file="file://$PROJECT_DIR$/LowestPricesInCities-09.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,6 +92,9 @@
         <option value="$PROJECT_DIR$/PopulationsInTowns-07.js" />
         <option value="$PROJECT_DIR$/CountWordsInText-05.js" />
         <option value="$PROJECT_DIR$/ExtractUniqueWords-10.js" />
+        <option value="$PROJECT_DIR$/JSONToHTMLTable-03.js" />
+        <option value="$PROJECT_DIR$/CityMarkets-08.js" />
+        <option value="$PROJECT_DIR$/LowestPricesInCities-09.js" />
       </list>
     </option>
   </component>
@@ -142,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,36 +147,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ExtractUniqueWords-10.js">
-    <configuration name="CountWordsInText-05.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CountWordsInText-05.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
-    <configuration name="CountWordsWithMaps-06.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CountWordsWithMaps-06.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.LowestPricesInCities-09.js">
+    <configuration name="CityMarkets-08.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="CityMarkets-08.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="ExtractUniqueWords-10.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ExtractUniqueWords-10.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="JSONToHTMLTable-03.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="JSONToHTMLTable-03.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="LowestPricesInCities-09.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="LowestPricesInCities-09.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="PopulationsInTowns-07.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="PopulationsInTowns-07.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="SumByTown-04.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="SumByTown-04.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Node.js.SumByTown-04.js" />
-      <item itemvalue="Node.js.CountWordsInText-05.js" />
-      <item itemvalue="Node.js.CountWordsWithMaps-06.js" />
       <item itemvalue="Node.js.PopulationsInTowns-07.js" />
       <item itemvalue="Node.js.ExtractUniqueWords-10.js" />
+      <item itemvalue="Node.js.LowestPricesInCities-09.js" />
+      <item itemvalue="Node.js.JSONToHTMLTable-03.js" />
+      <item itemvalue="Node.js.CityMarkets-08.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.LowestPricesInCities-09.js" />
+        <item itemvalue="Node.js.CityMarkets-08.js" />
+        <item itemvalue="Node.js.JSONToHTMLTable-03.js" />
         <item itemvalue="Node.js.ExtractUniqueWords-10.js" />
         <item itemvalue="Node.js.PopulationsInTowns-07.js" />
-        <item itemvalue="Node.js.CountWordsWithMaps-06.js" />
-        <item itemvalue="Node.js.CountWordsInText-05.js" />
-        <item itemvalue="Node.js.SumByTown-04.js" />
       </list>
     </recent_temporary>
   </component>
@@ -217,30 +191,31 @@
       <option name="presentableId" value="Default" />
       <updated>1538932913816</updated>
       <workItem from="1538932916552" duration="5275000" />
+      <workItem from="1538940635980" duration="3093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5275000" />
+    <option name="totallyTimeSpent" value="8368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,20 +233,23 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/ScoreToHTML-02.js</url>
           <line>18</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/SumByTown-04.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/CountWordsWithMaps-06.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/LowestPricesInCities-09.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -291,13 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PopulationsInTowns-07.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TownsToJSON-01.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -307,22 +278,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScoreToHTML-02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONToHTMLTable-03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CountWordsInText-05.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="63" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="63" />
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PopulationsInTowns-07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtractUniqueWords-10.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="12" selection-end-column="1" />
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityMarkets-08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LowestPricesInCities-09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
