@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6868468f-c74c-4792-8442-96e43a6199f6" name="Default Changelist" comment="" />
+    <list default="true" id="5c874a61-1cc3-4275-b1c0-4090044880b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AncientVSMemory-03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArenaTier-04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GladiatorExpenses-01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GladiatorInventory-02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Fundamentals-Exam-11-Feb-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Fundamentals-Exam-11-Feb-2018/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1021491995">
+    <session id="1250592201">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
@@ -33,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2267" />
+          <entry key="js" value="1696" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2267" />
+          <entry key="JavaScript" value="1696" />
         </counts>
       </usages-collector>
     </session>
@@ -46,37 +53,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BitcoinMining-01.js">
+        <entry file="file://$PROJECT_DIR$/GladiatorExpenses-01.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="544">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AirPollution-02.js">
+        <entry file="file://$PROJECT_DIR$/GladiatorInventory-02.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SurveyParser-03.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GameOfEpicness-04.js">
+        <entry file="file://$PROJECT_DIR$/AncientVSMemory-03.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="56" column="81" lean-forward="true" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -96,10 +94,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BitcoinMining-01.js" />
-        <option value="$PROJECT_DIR$/AirPollution-02.js" />
-        <option value="$PROJECT_DIR$/SurveyParser-03.js" />
-        <option value="$PROJECT_DIR$/GameOfEpicness-04.js" />
+        <option value="$PROJECT_DIR$/ArenaTier-04.js" />
+        <option value="$PROJECT_DIR$/GladiatorExpenses-01.js" />
+        <option value="$PROJECT_DIR$/GladiatorInventory-03.js" />
+        <option value="$PROJECT_DIR$/AncientVSMemory-03.js" />
       </list>
     </option>
   </component>
@@ -121,12 +119,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JS-Fundamentals-Retake-Exam-24-April-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Fundamentals-Retake-Exam-24-April-2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/JS-Core/JS-Fundamentals/JS-Fundamentals-Exam-11-Feb-2018/BitcoinMining-01.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -143,26 +150,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.SurveyParser-03.js">
-    <configuration name="AirPollution-02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AirPollution-02.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.AncientVSMemory-03.js">
+    <configuration name="AncientVSMemory-03.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AncientVSMemory-03.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="BitcoinMining-01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="BitcoinMining-01.js" working-dir="$PROJECT_DIR$">
+    <configuration name="GladiatorExpenses-01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="GladiatorExpenses-01.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="SurveyParser-03.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="SurveyParser-03.js" working-dir="$PROJECT_DIR$">
+    <configuration name="GladiatorInventory-02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/GladiatorInventory-02.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.BitcoinMining-01.js" />
-      <item itemvalue="Node.js.AirPollution-02.js" />
-      <item itemvalue="Node.js.SurveyParser-03.js" />
+      <item itemvalue="Node.js.GladiatorExpenses-01.js" />
+      <item itemvalue="Node.js.GladiatorInventory-02.js" />
+      <item itemvalue="Node.js.AncientVSMemory-03.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.SurveyParser-03.js" />
-        <item itemvalue="Node.js.AirPollution-02.js" />
-        <item itemvalue="Node.js.BitcoinMining-01.js" />
+        <item itemvalue="Node.js.AncientVSMemory-03.js" />
+        <item itemvalue="Node.js.GladiatorInventory-02.js" />
+        <item itemvalue="Node.js.GladiatorExpenses-01.js" />
       </list>
     </recent_temporary>
   </component>
@@ -171,18 +178,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6868468f-c74c-4792-8442-96e43a6199f6" name="Default Changelist" comment="" />
-      <created>1539287513232</created>
+      <changelist id="5c874a61-1cc3-4275-b1c0-4090044880b8" name="Default Changelist" comment="" />
+      <created>1539360727776</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1539287513232</updated>
-      <workItem from="1539287514732" duration="6639000" />
-      <workItem from="1539360646444" duration="75000" />
+      <updated>1539360727776</updated>
+      <workItem from="1539360731752" duration="2924000" />
+      <workItem from="1539366601261" duration="966000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6714000" />
+    <option name="totallyTimeSpent" value="3890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -217,44 +224,39 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/BitcoinMining-01.js</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/SurveyParser-03.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/GladiatorInventory-02.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BitcoinMining-01.js">
+    <entry file="file://$PROJECT_DIR$/ArenaTier-04.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="1275">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AirPollution-02.js">
+    <entry file="file://$PROJECT_DIR$/GladiatorExpenses-01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="544">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SurveyParser-03.js">
+    <entry file="file://$PROJECT_DIR$/GladiatorInventory-02.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="29" column="79" lean-forward="true" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameOfEpicness-04.js">
+    <entry file="file://$PROJECT_DIR$/AncientVSMemory-03.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="56" column="81" lean-forward="true" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
