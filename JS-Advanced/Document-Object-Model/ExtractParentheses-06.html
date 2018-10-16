@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function result(elementId){
+        let text = document.getElementById(elementId).textContent;
+        let regex = /\(([^)]+)\)/g;
+        let match = regex.exec(text);
+        let result = [];
+
+        while(match){
+            result.push(match[0]);
+            match = regex.exec(text);
+        }
+
+        return result.join("; ");
+    }
+</script>
+</body>
+</html>

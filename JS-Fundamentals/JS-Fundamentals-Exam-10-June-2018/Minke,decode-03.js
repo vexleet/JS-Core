@@ -3,8 +3,6 @@ function solve(input) {
     let endPoint = Number(input[1]);
     let rightWord = input[2];
 
-
-
     let regexForCountry = /[A-Z][a-z]+[A-Z]/g;
     let regexForNumbers = /(\d{3}\.\d+|\d{3})/g;
     let match = regexForCountry.exec(input[3]);
