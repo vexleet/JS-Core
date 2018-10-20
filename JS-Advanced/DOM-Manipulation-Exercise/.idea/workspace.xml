@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1cb8c45-3044-4c43-b5dd-9e113d03b3e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accordion-03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceConverter-07.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FillDropdown-02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification-05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sections-04.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subtraction-01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TimeConverter-06.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/distanceConverter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/timeConverter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DOM-Manipulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DOM-Manipulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,9 +17,10 @@
     <session id="-788012208">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,11 +50,11 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DistanceConverter-07.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="612">
               <caret line="36" column="41" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="41" />
             </state>
           </provider>
@@ -73,7 +63,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/distanceConverter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
+            <state relative-caret-position="697">
               <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
           </provider>
@@ -134,20 +124,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DOM-Manipulation-Exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DOM-Manipulation-Exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -179,11 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1539883131621</updated>
       <workItem from="1539883134295" duration="5470000" />
+      <workItem from="1540041316404" duration="455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5470000" />
+    <option name="totallyTimeSpent" value="5925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -292,14 +270,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DistanceConverter-07.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="612">
           <caret line="36" column="41" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/distanceConverter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
+        <state relative-caret-position="697">
           <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
