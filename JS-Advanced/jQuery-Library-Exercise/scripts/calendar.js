@@ -1,8 +1,8 @@
 function calendar(date) {
     let day = date[0];
-    let month = date[1];
+    let month = Number(date[1]);
     let year = Number(date[2]);
-    let getDate = new Date(year, month, 1);
+    let getDate = new Date(year, month - 1, 1);
 
     let monthWithLetters = getDate.toLocaleString("en-us", { month: "long" });
 
@@ -23,22 +23,25 @@ function calendar(date) {
 
     function appendDays(){
         let row = $("<tr>");
-
         let getIndexOfMonday = getDate.getDay();
 
+        if(getIndexOfMonday === 0){
+            getIndexOfMonday = 7;
+        }
+
         for(let i = 0; i < getIndexOfMonday - 1; i++){
-            row.append($("<th>").text(" "));
+            row.append($("<td>"));
         }
 
         let number = 1;
         let daysCounter = getIndexOfMonday;
 
-        while (getDate.getMonth() === month) {
+        while (getDate.getMonth() === month - 1) {
             if(number === day){
-                row.append($("<th>").text(number).addClass("today"));
+                row.append($("<td>").text(number).addClass("today"));
             }
             else {
-                row.append($("<th>").text(number));
+                row.append($("<td>").text(number));
             }
 
             if(daysCounter === 7){
@@ -51,11 +54,12 @@ function calendar(date) {
 
             getDate.setDate(getDate.getDate() + 1);
         }
-
-        for(let i = row[0].childNodes.length; i < 7; i++){
-            row.append($("<th>").text(" "));
+        if(row[0].childNodes.length > 0) {
+            for (let i = row[0].childNodes.length; i < 7; i++) {
+                row.append($("<td>"));
+            }
+            createTable.append(row);
         }
-        createTable.append(row);
     }
     appendDays();
     $("#content").append(createTable);
