@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e833c9d-67b1-46bb-b0eb-84b695e1297d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PublicTransport-04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicTransport-04/solution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5346f5f2-7adb-4e38-a777-6068d9fad059" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/PublicTransport-04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/PublicTransport-04/solution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortTable-01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortTable-01/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,55 +19,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1760122341">
+    <session id="1998907673">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="2" />
+          <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="js" value="428" />
+          <entry key="html" value="1" />
+          <entry key="js" value="477" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="428" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="477" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PublicTransport-04/index.html">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SortTable-01/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="692">
+              <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PublicTransport-04/solution.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SortTable-01/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -83,10 +89,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BusRoute-01/index.html" />
-        <option value="$PROJECT_DIR$/BusRoute-01/solution.js" />
-        <option value="$PROJECT_DIR$/PublicTransport-04/index.html" />
-        <option value="$PROJECT_DIR$/PublicTransport-04/solution.js" />
+        <option value="$PROJECT_DIR$/SortTable-01/index.html" />
+        <option value="$PROJECT_DIR$/SortTable-01/script.js" />
       </list>
     </option>
   </component>
@@ -113,18 +117,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-Advanced-Retake-Exam-5-Sept-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Advanced-Retake-Exam-5-Sept-2017" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="BusRoute-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS-Advanced-Retake-Exam-26-Apr-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="PublicTransport-04" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-Advanced-Retake-Exam-5-Sept-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Advanced-Retake-Exam-5-Sept-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="SortTable-01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,26 +154,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e833c9d-67b1-46bb-b0eb-84b695e1297d" name="Default Changelist" comment="" />
-      <created>1541340914837</created>
+      <changelist id="5346f5f2-7adb-4e38-a777-6068d9fad059" name="Default Changelist" comment="" />
+      <created>1541356220252</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541340914837</updated>
-      <workItem from="1541340917599" duration="909000" />
-      <workItem from="1541355071376" duration="1060000" />
+      <updated>1541356220252</updated>
+      <workItem from="1541356223171" duration="1305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1969000" />
+    <option name="totallyTimeSpent" value="1305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24909529" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -182,14 +184,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24969843" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -198,27 +215,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BusRoute-01/index.html">
+    <entry file="file://$PROJECT_DIR$/SortTable-01/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="692">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BusRoute-01/solution.js">
+    <entry file="file://$PROJECT_DIR$/SortTable-01/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PublicTransport-04/solution.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PublicTransport-04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
