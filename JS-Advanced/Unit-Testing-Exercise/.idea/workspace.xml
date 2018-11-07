@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a44abc-1cfd-42d5-9e1f-deada2bcfc33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ArmageDom-06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharedObject-05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ArmageDomTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SharedObjectTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Unit-Testing-Exercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Unit-Testing-Exercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SharedObjectTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/SharedObjectTests.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/SharedObjectTests.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="725">
-              <caret line="183" column="6" lean-forward="true" selection-start-column="3" selection-end-line="183" selection-end-column="6" />
+              <caret line="183" column="3" lean-forward="true" selection-end-line="183" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -85,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ArmageDomTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="61" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -118,8 +112,8 @@
         <option value="$PROJECT_DIR$/test/MathEnforcerTests.js" />
         <option value="$PROJECT_DIR$/ArmageDom-06.js" />
         <option value="$PROJECT_DIR$/SharedObject-05.js" />
-        <option value="$PROJECT_DIR$/test/SharedObjectTests.js" />
         <option value="$PROJECT_DIR$/test/ArmageDomTests.js" />
+        <option value="$PROJECT_DIR$/test/SharedObjectTests.js" />
       </list>
     </option>
   </component>
@@ -216,12 +210,12 @@
       <workItem from="1541527970521" duration="2069000" />
       <workItem from="1541535203707" duration="888000" />
       <workItem from="1541538267222" duration="1559000" />
-      <workItem from="1541613402340" duration="4272000" />
+      <workItem from="1541613402340" duration="4418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8788000" />
+    <option name="totallyTimeSpent" value="8934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -309,16 +303,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SharedObjectTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="183" column="6" lean-forward="true" selection-start-column="3" selection-end-line="183" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArmageDom-06.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -328,8 +312,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ArmageDomTests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SharedObjectTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="183" column="3" lean-forward="true" selection-end-line="183" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
