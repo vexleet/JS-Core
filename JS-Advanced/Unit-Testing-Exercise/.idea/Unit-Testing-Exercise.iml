@@ -11,5 +11,6 @@
     <orderEntry type="library" name="@types/chai" level="application" />
     <orderEntry type="library" name="@types/jquery" level="application" />
     <orderEntry type="library" name="@types/mocha" level="application" />
+    <orderEntry type="library" name="@types/jsdom" level="application" />
   </component>
 </module>
