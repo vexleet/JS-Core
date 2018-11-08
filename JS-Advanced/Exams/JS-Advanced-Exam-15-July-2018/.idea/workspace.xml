@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d56b01c-b24b-45bd-8930-a4e3ddf67775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StickyNotes-01/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StickyNotes-01/solution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator-02/Calculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JS-Advanced-Exam-15-July-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS-Advanced-Exam-15-July-2018.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit-Testing-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit-Testing-Exercise/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,51 +23,52 @@
     <session id="-46531140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="1" />
+          <entry key="js" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="871" />
+          <entry key="js" value="2316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="871" />
+          <entry key="JavaScript" value="2316" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StickyNotes-01/index.html">
+        <entry file="file://$PROJECT_DIR$/Calculator-02/Calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="359">
+              <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/StickyNotes-01/solution.js">
+        <entry file="file://$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="107" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -73,8 +78,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -87,11 +92,19 @@
         <option value="$PROJECT_DIR$/StickyNotes-01.js" />
         <option value="$PROJECT_DIR$/StickyNotes-01/index.html" />
         <option value="$PROJECT_DIR$/StickyNotes-01/solution.js" />
+        <option value="$PROJECT_DIR$/Calculator-02/Calculator.js" />
+        <option value="$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -119,6 +132,17 @@
             <path>
               <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator-02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator-02" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
               <item name="StickyNotes-01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -130,8 +154,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,6 +176,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Calculator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Calculator.js" working-dir="$PROJECT_DIR$/Calculator-02">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Calculator.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -161,30 +197,30 @@
       <option name="presentableId" value="Default" />
       <updated>1541334827455</updated>
       <workItem from="1541334830431" duration="3344000" />
+      <workItem from="1541701033007" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3344000" />
+    <option name="totallyTimeSpent" value="5043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -195,6 +231,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/StickyNotes-01/index.html">
@@ -208,6 +255,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator-02/Calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="107" selection-end-column="3" />
         </state>
       </provider>
     </entry>
