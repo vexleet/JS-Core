@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5346f5f2-7adb-4e38-a777-6068d9fad059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/Calculator-02/Calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/Calculator-02/test/CalculatorTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/PaymentPackage-02/PaymentPackage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/PaymentPackage-02/test/PaymentPackageTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringBuilder-02/StringBuilder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringBuilder-02/test/StringBuilderTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/.idea/JS-Advanced-Exam-15-July-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/.idea/JS-Advanced-Exam-15-July-2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-15-July-2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/.idea/JS-Advanced-Exam-18-Mar-2018.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/.idea/JS-Advanced-Exam-18-Mar-2018.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Exam-18-Mar-2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JS-Advanced-Retake-Exam-5-Sept-2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JS-Advanced-Retake-Exam-5-Sept-2017.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Unit-Testing-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Unit-Testing-Exercise/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,11 +17,11 @@
     <session id="1998907673">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StringBuilder-02/StringBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="816">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -203,11 +187,12 @@
       <workItem from="1541356223171" duration="1305000" />
       <workItem from="1541439241523" duration="166000" />
       <workItem from="1541708319224" duration="1499000" />
+      <workItem from="1541788131665" duration="160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2970000" />
+    <option name="totallyTimeSpent" value="3130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -274,8 +259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StringBuilder-02/StringBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="816">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
