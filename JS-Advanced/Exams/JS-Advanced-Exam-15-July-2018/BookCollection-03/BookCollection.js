@@ -1,34 +1,39 @@
-class BookCollection {
-    constructor(shelfGenre, room, shelfCapacity) {
-        if (room === "livingRoom" || room === "bedRoom" || room ==="closet") {
-            this.shelfGenre = shelfGenre;
-            this.room = room;
-            this.shelfCapacity = Number(shelfCapacity);
-            this.shelf = [];
-            return;
+class BookCollection{
+    constructor(shelfGenre, room, shelfCapacity){
+        this.room=room;
+        this.shelfGenre=shelfGenre;
+        this.shelf=[];
+        this.shelfCapacity = shelfCapacity;
+    }
+
+    get room(){
+        return this._room;
+    }
+
+    set room(val){
+        let rooms = ['livingRoom', 'bedRoom', 'closet'];
+        if(!rooms.includes(val)){
+            throw new Error(`Cannot have book shelf in ${val}`);
         }
-        throw new Error(`Cannot have book shelf in ${room}`);
+        this._room=val;
     }
 
     addBook(bookName, bookAuthor, genre = undefined) {
-        if (this.shelf.length === this.shelfCapacity) {
+        if(this.shelf.length===this.shelfCapacity){
             this.shelf.shift();
         }
-
-        this.shelf.push({
-            bookName: bookName,
-            bookAuthor: bookAuthor,
-            genre: genre
-        });
-
-        this.shelf = this.shelf.sort((a, b) => a.bookAuthor.localeCompare(b.bookAuthor));
+        this.shelf.push({bookName,bookAuthor,genre});
+        this.shelf = this.shelf.sort((a,b)=>a.bookAuthor.localeCompare(b.bookAuthor));
     }
 
-    throwAwayBook(bookToRemove) {
-        this.shelf = this.shelf.filter(x => x.bookName !== bookToRemove);
+    throwAwayBook(bookName) {
+        this.shelf = this.shelf.filter((a) => a.bookName!==bookName);
     }
 
     showBooks(genre) {
+        if(typeof genre !== 'string'){
+            throw new Error("");
+        }
         let books = [];
 
         for (let book of this.shelf) {
@@ -41,7 +46,7 @@ class BookCollection {
             books.join("\n");
     }
 
-    get shelfCondition() {
+    get shelfCondition(){
         return this.shelfCapacity - this.shelf.length;
     }
 
@@ -62,10 +67,7 @@ class BookCollection {
     }
 }
 
-let bedRoom = new BookCollection('Mixed', 'bedRoom', 5);
-bedRoom.addBook("John Adams", "David McCullough", "history");
-bedRoom.addBook("The Guns of August", "Cuentos para pensar", "history");
-bedRoom.addBook("Atlas of Remote Islands", "Judith Schalansky");
-bedRoom.addBook("Paddle-to-the-Sea", "Holling Clancy Holling");
-console.log("Shelf's capacity: " + bedRoom.shelfCondition);
-console.log(bedRoom.showBooks("history"));
+let livingRoom = new BookCollection("Programming", "livingRoom", 5)
+    .addBook("Introduction to Programming with C#", "Svetlin Nakov")
+
+console.log(livingRoom.toString());
