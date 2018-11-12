@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="917d050b-820b-4cad-ad6d-7f7cb4f84d83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cards-07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Circle-04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GetPersons-03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Person-02.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PointDistance-05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle-01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exams/JS-Advanced-Retake-Exam-5-Sept-2017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exams/JS-Advanced-Retake-Exam-5-Sept-2017/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit-Testing-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-Testing-Exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +17,11 @@
     <session id="742394445">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cards-07.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="284">
+              <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -151,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +155,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,17 +220,19 @@
       <updated>1541788296434</updated>
       <workItem from="1541788299422" duration="1801000" />
       <workItem from="1541792584437" duration="1180000" />
+      <workItem from="1541794570058" duration="17000" />
+      <workItem from="1541795490969" duration="312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2981000" />
+    <option name="totallyTimeSpent" value="3310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24909529" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,13 +279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PointDistance-05.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Circle-04.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -298,10 +286,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PointDistance-05.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cards-07.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="284">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
         </state>
       </provider>
     </entry>
