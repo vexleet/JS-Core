@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d56b01c-b24b-45bd-8930-a4e3ddf67775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/LineManager-03/LineManager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Classes-And-Members-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Classes-And-Members-Exercise/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Classes-And-Members/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Classes-And-Members/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCollection-03/BookCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/BookCollection-03/BookCollection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-26-Apr-2018/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,13 +18,14 @@
     <session id="-46531140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BookCollection-03/BookCollection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="67" selection-start-line="67" selection-end-line="73" />
+            <state relative-caret-position="437">
+              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -115,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,13 +140,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Prototype-Chain" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -205,15 +202,15 @@
       <workItem from="1541942826771" duration="1419000" />
       <workItem from="1541944787504" duration="1851000" />
       <workItem from="1541952575836" duration="3480000" />
+      <workItem from="1542043330367" duration="75000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22784000" />
+    <option name="totallyTimeSpent" value="22859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24909529" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -288,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BookCollection-03/BookCollection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="67" selection-start-line="67" selection-end-line="73" />
+        <state relative-caret-position="437">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
