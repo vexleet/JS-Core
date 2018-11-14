@@ -31,7 +31,7 @@ class HolidayPackage {
         if (typeof insurance !== 'boolean') {
             throw new Error("Insurance status must be a boolean");
         }
-        this._insuranceIncluded = insurance;
+        this._insuranceIncludead = insurance;
     }
 
     generateHolidayPackage() {
