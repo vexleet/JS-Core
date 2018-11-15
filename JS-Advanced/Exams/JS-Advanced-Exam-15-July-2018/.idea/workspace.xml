@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d56b01c-b24b-45bd-8930-a4e3ddf67775" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Classes-And-Members-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Classes-And-Members-Exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Classes-And-Members/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Classes-And-Members/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop-04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop-04/solution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-30-August-2018/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-5-Sept-2017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-5-Sept-2017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-5-Sept-2017/Repository-03/Repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Advanced-Retake-Exam-5-Sept-2017/Repository-03/Repository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prototype-Chain-Exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Prototype-Chain-Exercise/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,47 +23,56 @@
     <session id="-46531140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="js" value="4" />
+          <entry key="html" value="2" />
+          <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="4" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="5133" />
+          <entry key="js" value="5979" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="5133" />
+          <entry key="JavaScript" value="5979" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OnlineShop-04/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BookCollection-03/BookCollection.js">
+        <entry file="file://$PROJECT_DIR$/OnlineShop-04/solution.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <caret line="50" column="27" lean-forward="true" selection-end-line="68" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,6 +99,8 @@
         <option value="$PROJECT_DIR$/Calculator-02/Calculator.js" />
         <option value="$PROJECT_DIR$/Calculator-02/test/CalculatorTests.js" />
         <option value="$PROJECT_DIR$/BookCollection-03/BookCollection.js" />
+        <option value="$PROJECT_DIR$/OnlineShop-04/index.html" />
+        <option value="$PROJECT_DIR$/OnlineShop-04/solution.js" />
       </list>
     </option>
   </component>
@@ -100,7 +116,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="105" />
     <option name="y" value="16" />
     <option name="width" value="1692" />
@@ -123,18 +139,7 @@
             <path>
               <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator-02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator-02" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS-Advanced-Exam-15-July-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS-Advanced-Exam-15-July-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="StickyNotes-01" type="462c0819:PsiDirectoryNode" />
+              <item name="OnlineShop-04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Prototype-Chain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -203,16 +208,18 @@
       <workItem from="1541944787504" duration="1851000" />
       <workItem from="1541952575836" duration="3480000" />
       <workItem from="1542043330367" duration="75000" />
+      <workItem from="1542304830224" duration="1704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22859000" />
+    <option name="totallyTimeSpent" value="24563000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24909529" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24909529" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +293,21 @@
     <entry file="file://$PROJECT_DIR$/BookCollection-03/BookCollection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineShop-04/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OnlineShop-04/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="50" column="27" lean-forward="true" selection-end-line="68" selection-end-column="1" />
         </state>
       </provider>
     </entry>
