@@ -1,0 +1,21 @@
+{
+    "-LRhK4uBF38uJTE4fIlH": {
+        "body": "Minor bug",
+        "labels": [
+            "bug",
+            "error"
+        ],
+        "title": "I have created an issue"
+    },
+    "Books": [
+        null,
+        {
+            "author": "Ivan Vazov",
+            "title": "Under the Yoke"
+        },
+        {
+            "author": "Svetlin Nakov",
+            "title": "C# Fundamentals"
+        }
+    ]
+}
