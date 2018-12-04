@@ -64,6 +64,8 @@ function loadCanvas(player){
             }
 
             player.bullets--;
+
+            window.playerInfo = {name: player.name, money: player.money, bullets: player.bullets};
         }
     });
 
@@ -82,5 +84,5 @@ function loadCanvas(player){
         drawCanvas(mouse.x,mouse.y)
     }
 
-    window.canvas.intervalId = canvas.intervalId;
+    window.intervalId = canvas.intervalId;
 }

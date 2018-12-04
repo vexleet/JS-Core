@@ -1,5 +1,7 @@
 const host = 'https://baas.kinvey.com/appdata/kid_SkHErlmkE/players';
-const auth = {'Authorization': `Basic ${btoa('guest:guest')}, "Content-type": "application/json"`};
+const auth = {'Authorization': "Basic Z3Vlc3Q6Z3Vlc3Q=", "Content-Type": "application/json"};
+let currentPlayerId = undefined;
+let reloaded = false;
 
 function attachEvents() {
     getPlayers();
@@ -52,11 +54,12 @@ function attachEvents() {
 
         function playGame() {
             let playerId = $(this.parentNode).data("id");
+            currentPlayerId = playerId;
 
             let newBody = {
-                name: $(this.parentNode).find('.name').text(),
-                money: Number($(this.parentNode).find('.money').text()),
-                bullets: Number($(this.parentNode).find('.bullets').text())
+                "name": $(this.parentNode).find('.name').text(),
+                "money": Number($(this.parentNode).find('.money').text()),
+                "bullets": Number($(this.parentNode).find('.bullets').text())
             };
 
             savePlayer(newBody, playerId)
@@ -66,6 +69,7 @@ function attachEvents() {
 
     $("#addPlayer").click(addPlayer);
     $("#save").click(savePlayer);
+    $("#reload").click(reloadBullets);
 
     function addPlayer(){
         let playerName = $("#addName").val();
@@ -79,32 +83,63 @@ function attachEvents() {
             url: host,
             method: "POST",
             headers: auth,
-            data: newPlayerBody
+            data: JSON.stringify(newPlayerBody)
         })
             .then(getPlayers);
     }
 
-    function savePlayer(data, playerId) {
-        console.log(data);
-        console.log(host + `/${playerId}`);
+    function savePlayer(newBody, playerId = currentPlayerId){
+        if(newBody.type === 'click'){
+            newBody = playerInfo
+        }
+
+        console.log(newBody);
+
         $.ajax({
+            url: host + `/${playerId}`,
             method: "PUT",
-            data: JSON.stringify(data),
+            data: JSON.stringify(newBody),
             headers: auth,
-            url: host + `/${playerId}`
         })
-            .then(getPlayers);
+            .then(drawCanvas);
+    }
+    
+    function reloadBullets(newBody, playerId = currentPlayerId) {
+        if(newBody.type === 'click'){
+            newBody = playerInfo
+        }
+        console.log(newBody);
+        newBody.bullets = 6;
+        newBody.money = newBody.money - 60;
+
+        reloaded = true;
+
+        $.ajax({
+            url: host + `/${playerId}`,
+            method: "PUT",
+            data: JSON.stringify(newBody),
+            headers: auth,
+        })
+            .then(drawCanvas);
     }
 
     function drawCanvas(data) {
-        console.log(true);
         let canvasStyle = $("#canvas").css('display');
 
+        if(reloaded === true){
+            reloaded = false;
+            clearInterval(intervalId);
+            loadCanvas(data);
+            return;
+        }
+
         if(canvasStyle === 'block'){
-            canvas.intervalId.clearInterval();
+            clearInterval(intervalId);
             $("#canvas").css('display', 'none');
             $("#save").css('display', 'none');
             $("#reload").css('display', 'none');
+            currentPlayerId = undefined;
+            getPlayers();
         }
         else{
             $("#canvas").css('display', 'block');
