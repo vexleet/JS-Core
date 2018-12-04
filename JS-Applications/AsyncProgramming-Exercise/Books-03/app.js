@@ -60,6 +60,7 @@ function attachEvents() {
     }
 
     function updateBook(){
+        console.log(true);
         let bookId = $(this.parentNode).data("id");
 
         let title = $(this.parentNode).find(".title").val();
@@ -72,11 +73,13 @@ function attachEvents() {
             isbn
         };
 
+        console.log(bookBody);
+
         $.ajax({
+            url: host + `/${bookId}`,
             method: "PUT",
             data: JSON.stringify(bookBody),
             headers: auth,
-            url: host + `/${bookId}`
         })
             .then(getBooks);
     }
