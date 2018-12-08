@@ -1,0 +1,109 @@
+<div class="row space-top">
+        <div class="col-md-12">
+            <h1>Create New Furniture</h1>
+            <p>Please fill all fields.</p>
+        </div>
+    </div>
+    <form id="createFurniture" method="post" action="#/furniture/create">
+        <div class="row space-top">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="form-control-label" for="new-make">Make</label>
+                    <input class="form-control" id="new-make" name="make" type="text">
+                </div>
+                <div class="form-group has-success">
+                    <label class="form-control-label" for="new-model">Model</label>
+                    <input class="form-control" id="new-model" name="model" type="text">
+                </div>
+                <div class="form-group has-danger">
+                    <label class="form-control-label" for="new-year">Year</label>
+                    <input class="form-control" id="new-year" name="year" type="number">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="new-description">Description</label>
+                    <input class="form-control" id="new-description" name="description" type="text">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label class="form-control-label" for="new-price">Price</label>
+                    <input class="form-control" id="new-price" name="price" type="number">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="new-image">Image</label>
+                    <input class="form-control" id="new-image" name="image" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" for="new-material">Material (optional)</label>
+                    <input class="form-control" id="new-material" name="material" type="text">
+                </div>
+                <input type="submit" class="btn btn-primary" value="Create" />
+            </div>
+        </div>
+    </form>
+
+    <script>
+        $(function(){
+            $('#createFurniture').on('submit', function(ev){
+                ev.preventDefault();
+
+                if($('#new-make').val().trim().length < 4){
+                    $('#new-make').removeClass('is-valid');
+                    $('#new-make').addClass('is-invalid');
+                }
+                else{
+                    $('#new-make').removeClass('is-invalid');
+                    $('#new-make').addClass('is-valid');
+                }
+
+                if($('#new-model').val().trim().length < 4){
+                    $('#new-model').removeClass('is-valid');
+                    $('#new-model').addClass('is-invalid');
+                }
+                else{
+                    $('#new-model').removeClass('is-invalid');
+                    $('#new-model').addClass('is-valid');
+                }
+
+                if(Number($('#new-year').val() < 1950) && Number($('#new-year').val() > 2050) || $('#new-year').val() === ''){
+                    $('#new-year').removeClass('is-valid');
+                    $('#new-year').addClass('is-invalid');
+                }
+                else{
+                    $('#new-year').removeClass('is-invalid');
+                    $('#new-year').addClass('is-valid');
+                }
+
+                if($('#new-description').val().trim().length < 10){
+                    $('#new-description').removeClass('is-valid');
+                    $('#new-description').addClass('is-invalid');
+                }
+                else{
+                    $('#new-description').removeClass('is-invalid');
+                    $('#new-description').addClass('is-valid');
+                }
+
+                if(Number($('#new-price').val()) < 0 || $('#new-price').val() === ''){
+                    $('#new-price').removeClass('is-valid');
+                    $('#new-price').addClass('is-invalid');
+                }
+                else{
+                    $('#new-price').removeClass('is-invalid');
+                    $('#new-price').addClass('is-valid');
+                }
+
+                if($('#new-image').val().trim() === ''){
+                    $('#new-image').removeClass('is-valid');
+                    $('#new-image').addClass('is-invalid');
+                }
+                else{
+                    $('#new-image').removeClass('is-invalid');
+                    $('#new-image').addClass('is-valid');
+                }
+
+                if($(".is-valid").length < 6){
+                    ev.stopPropagation();
+                }
+            });
+        });
+    </script>
