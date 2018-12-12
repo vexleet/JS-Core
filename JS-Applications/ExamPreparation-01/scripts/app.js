@@ -122,6 +122,34 @@ $(() => {
                 handleError(e);
             });
         });
+
+        this.get('#/create', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            this.loadPartials({
+                header: './templates/common/header.hbs',
+                footer: './templates/common/footer.hbs',
+                createForm: './templates/create/createForm.hbs'
+            }).then(function () {
+                this.partial('./templates/create/createPage.hbs');
+            });
+        });
+
+        this.post('#/create', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            let destination = ctx.params.destination;
+            let origin = ctx.params.origin;
+            let departureDate = ctx.params.departureDate;
+            let departureTime = ctx.params.departureTime;
+            let seats = ctx.params.seats;
+            let cost = ctx.params.cost;
+            let isPublished = ctx.params.public;
+
+            
+        });
     });
 
     app.run('#/');
