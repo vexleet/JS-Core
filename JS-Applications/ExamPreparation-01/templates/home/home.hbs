@@ -1,3 +1,5 @@
 {{> header}}
-    {{> flightCatalog}}
+    {{#if loggedIn}}
+        {{> flightCatalog}}
+    {{/if}}
 {{> footer}}

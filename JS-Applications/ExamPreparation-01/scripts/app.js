@@ -40,21 +40,29 @@ $(() => {
             ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
             ctx.username = sessionStorage.getItem('username');
 
-            requester.get('appdata', 'flights', 'kinvey')
-                .then((flights) => {
-                    ctx.flights = flights.filter(x => x.isPublished === 'yes');
-
-                    this.loadPartials({
-                        header: './templates/common/header.hbs',
-                        footer: './templates/common/footer.hbs',
-                        flight: './templates/catalog/flight.hbs',
-                        flightCatalog: './templates/catalog/flightCatalog.hbs'
-                    }).then(function () {
-                        this.partial('./templates/home/home.hbs');
-                    });
+            if (ctx.loggedIn === false) {
+                this.loadPartials({
+                    header: './templates/common/header.hbs',
+                    footer: './templates/common/footer.hbs',
+                }).then(function () {
+                    this.partial('./templates/home/home.hbs');
                 });
+            }
+            else {
+                requester.get('appdata', 'flights', 'kinvey')
+                    .then((flights) => {
+                        ctx.flights = flights.filter(x => x.isPublished === 'yes');
 
-
+                        this.loadPartials({
+                            header: './templates/common/header.hbs',
+                            footer: './templates/common/footer.hbs',
+                            flight: './templates/catalog/flight.hbs',
+                            flightCatalog: './templates/catalog/flightCatalog.hbs'
+                        }).then(function () {
+                            this.partial('./templates/home/home.hbs');
+                        });
+                    });
+            }
         });
 
         this.get('#/register', function (ctx) {
@@ -144,11 +152,142 @@ $(() => {
             let origin = ctx.params.origin;
             let departureDate = ctx.params.departureDate;
             let departureTime = ctx.params.departureTime;
+            let image = ctx.params.img;
             let seats = ctx.params.seats;
             let cost = ctx.params.cost;
-            let isPublished = ctx.params.public;
+            let isPublished = ctx.params.public === 'on' ? 'yes' : 'no';
 
-            
+            let data = {
+                destination,
+                departure: departureDate,
+                origin,
+                departureTime,
+                image,
+                seats,
+                cost,
+                isPublished,
+            };
+
+            if (destination !== '' && origin !== '' && seats > 0 && cost > 0) {
+                requester.post('appdata', 'flights', 'kinvey', data)
+                    .then(function () {
+                        ctx.redirect('#/');
+                        showInfo('Created flight.');
+                    });
+            }
+        });
+
+        this.get('#/flights/:id', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            requester.get('appdata', 'flights/' + ctx.params.id.substring(1), 'kinvey')
+                .then((flight) => {
+                    ctx.image = flight.image;
+                    ctx.destination = flight.destination;
+                    ctx.origin = flight.origin;
+                    ctx.departure = flight.departure;
+                    ctx.departureTime = flight.departureTime;
+                    ctx.seats = flight.seats;
+                    ctx.cost = flight.cost;
+                    ctx.creator = sessionStorage.getItem('userId') === flight._acl.creator;
+                    ctx._id = flight._id;
+
+                    this.loadPartials({
+                        header: './templates/common/header.hbs',
+                        footer: './templates/common/footer.hbs'
+                    }).then(function () {
+                        this.partial('./templates/catalog/flightDetails.hbs');
+                    });
+                });
+        });
+
+        this.get('#/myflights', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            requester.get('appdata', 'flights', 'kinvey')
+                .then((flights) => {
+                    let userId = sessionStorage.getItem('userId');
+                    ctx.myFlights = flights.filter(x => x._acl.creator === userId);
+
+                    this.loadPartials({
+                        header: './templates/common/header.hbs',
+                        footer: './templates/common/footer.hbs'
+                    }).then(function () {
+                        this.partial('./templates/catalog/myFlights.hbs');
+                    });
+                });
+        });
+
+        this.get('#/removeFlight/:id', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            requester.remove('appdata', 'flights/' + ctx.params.id.substring(1), 'kinvey')
+                .then(function () {
+                    ctx.redirect('#/myflights');
+                    showInfo("Flight deleted.");
+                });
+
+        });
+
+        this.get('#/editFlight/:id', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            requester.get('appdata', 'flights/' + ctx.params.id.substring(1), 'kinvey')
+                .then((flight) => {
+                    ctx.image = flight.image;
+                    ctx.destination = flight.destination;
+                    ctx.origin = flight.origin;
+                    ctx.departure = flight.departure;
+                    ctx.departureTime = flight.departureTime;
+                    ctx.seats = flight.seats;
+                    ctx.price = flight.cost;
+                    ctx.isPublished = flight.isPublished === 'yes' ? 'checked' : '';
+                    ctx._id = flight._id;
+
+                    console.log(flight);
+
+                    this.loadPartials({
+                        header: './templates/common/header.hbs',
+                        footer: './templates/common/footer.hbs'
+                    }).then(function () {
+                        this.partial('./templates/edit/editFlight.hbs');
+                    });
+            });
+        });
+
+        this.post('#/editFlight/:id', function (ctx) {
+            ctx.loggedIn = sessionStorage.getItem('authtoken') !== null;
+            ctx.username = sessionStorage.getItem('username');
+
+            let destination = ctx.params.destination;
+            let origin = ctx.params.origin;
+            let departureDate = ctx.params.departureDate;
+            let departureTime = ctx.params.departureTime;
+            let image = ctx.params.img;
+            let seats = ctx.params.seats;
+            let cost = ctx.params.cost;
+            let isPublished = ctx.params.public === 'on' ? 'yes' : 'no';
+
+            let data = {
+                destination,
+                departure: departureDate,
+                origin,
+                departureTime,
+                image,
+                seats,
+                cost,
+                isPublished,
+            };
+
+            requester.update('appdata', 'flights/' + ctx.params.id.substring(1), 'kinvey', data)
+                .then(function () {
+                    ctx.redirect('#/flights/:' + ctx.params.id.substring(1));
+                    showInfo("Successfully edited flight.");
+                });
         });
     });
 
